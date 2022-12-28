@@ -1,5 +1,7 @@
 # S03Angular
 
+Integrante: Estrellita Peña Medina / Sección: J04
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
