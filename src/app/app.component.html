@@ -1,0 +1,43 @@
+<div class="contenerdor">
+  <div class="col-md-5 pregunta">
+  <label EjercicioDirective for="valor1">Ingrese el primer valor:</label>
+  <input [ngClass]="valor1 !== '' ? 'green' : 'red'" [(ngModel)]="valor1" type="number" id="valor1"/>
+  </div>
+
+  <br>
+  <div class="col-md-5">
+  <label for="valor2">Ingrese segundo valor:</label>
+  <input [ngClass]="valor1 !== '' ? 'green' : 'red'" [(ngModel)]="valor2" type="number" id="valor2"/>
+  </div>
+
+  <br>
+  <br>
+  <select [(ngModel)]="optionSelect" value="opcion" [ngClass]="'selector'">
+    <option value="sumar">Sumar</option>
+    <option value="restar">Restar</option>
+    <option value="dividir">Dividir</option>
+    <option value="multi">Multiplicar</option>
+  </select>
+
+
+  <div [ngSwitch]="optionSelect">
+    <!-- Suma -->
+    <input *ngSwitchCase="'sumar'" type="button" value="Enviar" (click)="sumar()"/>
+
+    <!-- Resta -->
+    <input *ngSwitchCase="'restar'" type="button" value="Enviar"(click)="restar()"/>
+
+    <!-- División -->
+    <input *ngSwitchCase="'dividir'" type="button" value="Enviar" (click)="dividir()"/>
+
+    <!-- Multiplicación -->
+    <input *ngSwitchCase="'multi'" type="button" value="Enviar"(click)="multiplicar()"/>
+
+
+    <p ngClass="alerta" *ngSwitchDefault type="button" value="Enviar">{{ alerta }}</p>
+  </div>
+
+  <div class="resultado" *ngIf="valor1 !== '' && valor2 !== '' && validacion === true">
+    La respuesta es: {{ mensaje }}
+  </div>
+</div>

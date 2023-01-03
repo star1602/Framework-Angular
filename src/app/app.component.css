@@ -1,0 +1,40 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+.contenerdor{
+    text-justify: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px;
+    border: 1px solid blue;
+    max-width: 400px;
+}
+
+  
+  .red {
+    background-color: rgb(255, 34, 34);
+  }
+  
+  .green {
+    background-color: rgb(86, 255, 86);
+  }
+  
+.resultado{
+    color: blue;
+    font-size: 20px;
+}
+
+
+.alerta {
+    color: red;
+    place-content: center;
+  }
+  
+
+  
+.selector {
+    width: 150px;
+  }
