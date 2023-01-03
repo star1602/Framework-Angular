@@ -1,5 +1,13 @@
 # S09
 
+<h1>Resultado: </h1>
+  <img src="https://github.com/star1602/Framework-Angular-Certus/blob/main/img/S09%20-%20Vista%20previa.jpeg">
+  <img src="https://github.com/star1602/Framework-Angular-Certus/blob/main/img/S09%20-%20Resultado.jpeg">
+  <img src="https://github.com/star1602/Framework-Angular-Certus/blob/main/img/S09%20-%20C%C3%B3digo%20angular.jpeg">
+  <img src="https://github.com/star1602/Framework-Angular-Certus/blob/main/img/S09%20-%20Estructura.jpeg">
+  
+  
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Development server
