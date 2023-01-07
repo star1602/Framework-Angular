@@ -1,0 +1,23 @@
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+    height: 310px;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.103);
+  }
+
+  .btn {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  h4{
+    color: rgb(177, 177, 177);
+  }
+
+  .card-header{
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  
